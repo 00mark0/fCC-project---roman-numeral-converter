@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Pompiere', sans-serif;
+  min-height: 100vh;
+  background-image: url('/img/background.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.container input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'Pompiere', sans-serif;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container button {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'Pompiere', sans-serif;
+  border-radius: 5px;
+  border: 1px groove black;
+  transition: 0.1s ease;
+  padding: 0.5rem;
+}
+
+.container button:hover {
+  background-color: black;
+  color: white;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 100%;
+  margin-top: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .container h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .container h2 {
+    font-size: 1.75rem;
+  }
+
+  .container form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+  }
+
+  .container form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .container h2 {
+    font-size: 1.25rem;
+  }
+
+  .container form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .container h2 {
+    font-size: 1.1rem;
+  }
+
+  .container form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .container h2 {
+    font-size: 1rem;
+  }
+
+  .container form {
+    width: 100%;
+  }
+}
