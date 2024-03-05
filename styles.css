@@ -7,7 +7,7 @@
 body {
   font-family: 'Pompiere', sans-serif;
   min-height: 100vh;
-  background-image: url('/img/background.jpg');
+  background-image: url('img/background.jpg');
   background-size: cover;
   display: flex;
   flex-direction: column;
